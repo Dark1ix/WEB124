@@ -31,6 +31,32 @@ function Movie(title, genre, rating, reviewEmail) {
     };
 }
 
+for (let data of movieData) {
+
+    try {
+
+        const parts = data.split(",");
+
+        if (parts.length !== 4) {
+            throw new Error("Incorrect movie format.");
+        }
+
+        const movie = new Movie(
+            parts[0],
+            parts[1],
+            parts[2],
+            parts[3]
+        );
+
+        movies.push(movie);
+
+    } catch (error) {
+        console.log("Error processing movie:", data);
+        console.log(error.message);
+    }
+
+}
+
 console.log("Movie Summaries:");
 
 movies.forEach(movie => {
