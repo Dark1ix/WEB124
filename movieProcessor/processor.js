@@ -31,7 +31,7 @@ function Movie(title, genre, rating, reviewEmail) {
     };
 }
 
-for (let data of movieData) {
+for (let data of movie_Data) {
 
     try {
 
