@@ -23,13 +23,13 @@ function Pet(name, type, age, owner) {
 
 }
 
-const pet1 = new Pet("Kirby", "cat", 6, { name: "Jim" });
-const pet2 = new Pet("Tucker", "dog", 5);
-const pet3 = new Pet("Sky", "lizard", 2, { name: "Tom" });
+const pet1 = new Pet("Kirby", "Cat", 6, { name: "Jim" });
+const pet2 = new Pet("Tucker", "Dog", 5);
+const pet3 = new Pet("Sky", "Lizard", 2, { name: "Tom" });
 
 const pets = [pet1, pet2, pet3];
 
-// Display each pet's information
+
 console.log("Pet Information:");
 for (const pet of pets) {
     console.log("Name:", pet.name);
@@ -40,7 +40,7 @@ for (const pet of pets) {
     console.log("ID:", pet.getID());
 }
 
-// Have a birthday for one pet
+
 pet2.haveBirthday();
 
 console.log("After Birthday:");
@@ -50,6 +50,19 @@ console.log("Age:", pet2.age);
 console.log("Owner:", pet2.getOwnerName());
 console.log("Description:", pet2.getDescription());
 
-// Display the current date and time
+
 console.log("Current Date and Time:");
 console.log(new Date());
+
+/* 
+What does this refer to in your constructor and methods?
+This refers to the new object being created in the constructor and methods calls the specific object.
+
+What does optional chaining do in your code?
+This allows for checking if an object exists or if it's undefined. If it is undefined, it returns. If it exists, it returns the owner's name.
+It is so the code does not produce a possible error.
+
+Why might the Date object be useful in a JS program?
+Date is extremely important depending on what your task is. Calendars or Countdowns need the Date object to function.
+Timestamps are also a big example of Date object use.
+*/
