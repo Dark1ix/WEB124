@@ -1,11 +1,3 @@
-const movie_data = [
-    'Home Alone, Family, 8, JonDoe@gmail.com',
-    'The Batman, Action, 7.8, TimmyAllen@yahoo.com',
-    'Despicable Me, Action, 7.6, JohnnyDavis@gmail.com',
-    'It, Horror, 7.3, CharlieParker@gmail.com',
-    'Project Hail Mary, SCI-FI, 8.2'
-];
-
 function Movie(title, genre, rating, reviewEmail) {
     this.title = title;
     this.genre = genre;
@@ -14,7 +6,7 @@ function Movie(title, genre, rating, reviewEmail) {
     this.id = Symbol(name);
 
     this.getSummary = function() {
-        return `${this.title} is a ${this.genre} movie with a score rating of ${this.rating}`
+        return `${this.title} is a ${this.genre} movie with a score rating of ${this.rating}`;
 
     };
 
@@ -70,11 +62,11 @@ console.log("Highly Rated Movies");
 highlyRatedMovies.forEach(movie => {
     console.log(movie.title);
 
-})
+});
 
 console.log("Email Validation:")
 
-const emailPattern = "@,."
+const emailPattern = "@,.";
 
 movies.forEach(movie => {
     const email = movie.getReviewEmail();
