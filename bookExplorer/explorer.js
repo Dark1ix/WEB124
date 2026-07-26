@@ -25,10 +25,10 @@ const books = [{
 }
 ];
 
-console.log("List of Books:")
+console.log("List of Books:");
 
 for (let book of books) {
-    console.log(book)
+    console.log(book);
 }
 
 console.log("Entire document:");
