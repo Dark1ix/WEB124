@@ -7,7 +7,7 @@ function Pet(name, type, age, owner) {
 
 
     this.getDescription = function() {
-        return this.name,"is a",this.type,"and is",this.age,"years old.";
+        return this.name + "is a" + this.type + " and is " + this.age + " years old.";
     };
 
     this.haveBirthday = function () {
