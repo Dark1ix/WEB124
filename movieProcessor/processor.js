@@ -1,3 +1,4 @@
+console.log("JavaScript is running!");
 const movie_data = [
     'Home Alone,Family,8,JonDoe@gmail.com',
     'The Batman,Action,7.8,TimmyAllen@yahoo.com',
