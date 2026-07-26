@@ -106,4 +106,5 @@ How does try/catch help prevent errors in your program?
 It helps prevents errors by pushing the error list out of the function and prints it. This way I am able to see what the problem is without my code stopping.
 
 THe favorite movie message prints out my favorite movie and rating for it. 
-The way it determsines that is by pulling a specific date from my movie list and plugging into a favorite movie variable/
+The way it determsines that is by pulling a specific date from my movie list and plugging into a favorite movie variable
+/
