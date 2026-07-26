@@ -1,4 +1,3 @@
-console.log("JavaScript is running!");
 const movie_data = [
     'Home Alone,Family,8,JonDoe@gmail.com',
     'The Batman,Action,7.8,TimmyAllen@yahoo.com',
@@ -91,12 +90,20 @@ movies.forEach(movie => {
     console.log(movie.title, movie.getID());
 });
 
-const favoriteMovie = movies[1];
+const favoriteMovie = movies[2];
 
 console.log(
-    "My favorite movie is " +
-    favoriteMovie.title +
-    " with a rating of " +
-    favoriteMovie.rating +
-    "."
+    "My favorite movie is " + favoriteMovie.title + " with a rating of " + favoriteMovie.rating + "."
 );
+/*
+What are array methods, and how did you use them in this assignment?
+Array Methods are methods that allow you to modify a list. Filter was used to remove any entries that did not meet the .isHighlyRated function.
+
+What does your regular expression check for?
+It checks for emails.
+
+How does try/catch help prevent errors in your program?
+It helps prevents errors by pushing the error list out of the function and prints it. This way I am able to see what the problem is without my code stopping.
+
+THe favorite movie message prints out my favorite movie and rating for it. 
+The way it determsines that is by pulling a specific date from my movie list and plugging into a favorite movie variable/
