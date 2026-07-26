@@ -2,7 +2,7 @@ console.log("JavaScript is running!");
 const movie_data = [
     'Home Alone,Family,8,JonDoe@gmail.com',
     'The Batman,Action,7.8,TimmyAllen@yahoo.com',
-    'Despicable Me,Action, 7.6, JohnnyDavis@gmail.com',
+    'Despicable Me,Action,7.6,JohnnyDavis@gmail.com',
     'It,Horror,7.3,CharlieParker@gmail.com',
     'Project Hail Mary,SCI-FI,8.2'
 ];
