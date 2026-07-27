@@ -50,6 +50,7 @@ It is the action of attaching an event listener to a parent element to manage cu
 This allows for clean optimization.
 
 Why would someone want to use preventDefault()?
-You would want to use preventDefault to stop a refresh from happening when pressing a button.
+You would want to use preventDefault to stop a refresh from happening when pressing a button or 
+preventing someone to switch to a different link.
 
 */
