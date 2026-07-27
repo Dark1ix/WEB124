@@ -1,27 +1,27 @@
 const books = [{
     title: "My Hero Academia",
-    Author: "Kohei Horikoshi",
-    Pages: "8152"
+    author: "Kohei Horikoshi",
+    aages: 8152
 },
 {
     title: "Diary of a Wimpy Kid",
-    Author: "Jeff Kinney",
-    Pages: "224"
+    author: "Jeff Kinney",
+    pages: 224
 },
 {
     title: "Haikyuu!!",
-    Author: "Haruichi Furudate",
-    Pages: "9064"
+    author: "Haruichi Furudate",
+    pages: 9064
 },
 {
     title: "The Great Gatsby",
-    Author: "F. Scott Fitzgerald",
-    Pages: "165"
+    author: "F. Scott Fitzgerald",
+    pages: 165
 },
 {
     title: "Charlotte's Web",
-    Author: "E. B. White",
-    Pages: "192"
+    author: "E. B. White",
+    pages: 192
 }
 ];
 
