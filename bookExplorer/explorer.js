@@ -1,7 +1,7 @@
 const books = [{
     title: "My Hero Academia",
     author: "Kohei Horikoshi",
-    aages: 8152
+    pages: 8152
 },
 {
     title: "Diary of a Wimpy Kid",
@@ -44,11 +44,11 @@ console.log("All children of the body:");
 console.log(document.body.children);
 
 const ul = document.body.children[2];
-console.log("UL Element:");
+console.log("ul element:");
 console.log(ul);
 
 const firstli = ul.children[0];
-console.log("First lI:");
+console.log("First li:");
 console.log(firstli);
 
 console.log("Parent of li:");
@@ -57,13 +57,13 @@ console.log(firstli.parentElement);
 console.log("Sibling of li:");
 console.log(firstli.nextElementSibling);
 
-console.log("Text inside lI:");
+console.log("Text inside li:");
 console.log(firstli.textContent);
 
 console.log("Node Type:");
 console.log(firstli.nodeType);
 
-const heading = document.body.children[1];
+const heading = document.body.children[0];
 
-console.log("Paragraph Class Name:");
+console.log("Heading Class Name:");
 console.log(heading.className);
