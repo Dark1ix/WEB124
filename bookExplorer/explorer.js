@@ -67,3 +67,21 @@ const heading = document.body.children[0];
 
 console.log("Heading Class Name:");
 console.log(heading.className);
+/*
+What is the DOM tree?
+The DOM (Document Object Model) tree presents the HTML structure of the website in the console memmory.
+
+What is a node in the DOM?
+A node represents any single object in the tree. This could be a simple text string, markup tag or comments.
+
+What is the difference between a parent and a child node?
+A parent node is the top hiearchial element in the DOM, 
+it's similar to a family tree where the grandparents would be on the top. 
+Child node is the inner element inside that parent node, 
+similar to the parents being under grandparents on a family tree.
+
+What is a sibling node?
+A sibling node is any node that shares the same parent as another node,
+similar to siblings on a family tree hence the name.
+
+*/
