@@ -29,7 +29,7 @@ const quirkInput = document.querySelector("#favoriteQuirk");
 
 quirkInput.addEventListener("focus", function(){
     document.getElementById("quirkText").textContent =
-    "Nice! Tell us your favorite Quirk.";
+    "Awaiting Submission.";
 });
 
 quirkInput.addEventListener("blur", function(){
