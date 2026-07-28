@@ -70,6 +70,11 @@ document.getElementById("browser").textContent =
 document.getElementById("screenSize").textContent =
 `Screen Size: ${window.innerWidth}  x  ${window.innerHeight}`;
 
+/*
+This code occurs on the character list in the HTML.
+When a character is clicked, the event bubbles to the unordered list.
+This code identify which ul element was clicked and then alerts it.
+*/
 document.getElementById("characterList")
 .addEventListener("click", function(event){
 
