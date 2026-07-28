@@ -80,6 +80,18 @@ document.getElementById("characterList")
     }
 });
 
-
 /*
+Which JavaScript feature was easiest for you to use?
+The easiest js feature for me to use was the arrays. 
+Arrays and lists are used in other programming languages I use so it was simple to understand. 
+
+Which JavaScript feature was the most challenging?
+Event Listers were hard to get an understanding of at first but with practice, it became more managable.
+
+How did you use events in your project?
+Events were used to store user name and which hero they liked.
+It was also used to ask what their favorite quirk was.
+
+How did you use storage in your project?
+localStorage was used to log the user's first submission even after the tab was closed.
 */
