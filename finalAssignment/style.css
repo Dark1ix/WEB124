@@ -24,6 +24,12 @@ section{
     background:white;
     border-radius:10px;
 }
+footer{
+    padding:20px;
+    margin:20px;
+    background:white;
+    border-radius:10px;
+}
 
 img{
     width:350px;
