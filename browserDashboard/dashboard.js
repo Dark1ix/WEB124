@@ -67,4 +67,18 @@ forwardButton.addEventListener("click", function() {
 });
 
 /*
+What is the difference between localStorage and sessionStorage?
+localStorage is data that is permanently stored and survives browser erasure.
+sessionStorage is temporary data that is deleted once the tab is closed.
+
+What information can the Navigator object provide?
+The Navigator object can provide browser identity, hardware, preferences or system state.
+
+What happens when an input field receives focus?
+It provides an update to the browser, modifying the color of the element that received focus.
+It also logs this information in the console.
+
+Why might a website use a URL object?
+Using a URL object allows for easier manipulation of web addresses without creating extra bloat.
+This way, you can easily validate a link with the built in validation.
  */
