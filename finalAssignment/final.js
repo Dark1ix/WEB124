@@ -65,7 +65,7 @@ if(savedName && savedHero){
 }
 
 document.getElementById("browser").textContent =
-`Browser:" ${navigator.userAgent}`;
+`Browser: ${navigator.userAgent}`;
 
 document.getElementById("screenSize").textContent =
 `Screen Size: ${window.innerWidth}  x  ${window.innerHeight}`;
