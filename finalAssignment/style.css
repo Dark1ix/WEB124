@@ -6,13 +6,13 @@ body{
 
 header{
     background:#FFFFC5;
-    color:white;
+    color:black;
     padding:20px;
     text-align:center;
 }
 
 nav a{
-    color:white;
+    color:black;
     margin:15px;
     text-decoration:none;
     font-weight:bold;
