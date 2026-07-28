@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<!--Somtochukwu Onyenagubo 07/27/2026-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Hero Academia Fan Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header id="home">
+    <h1>My Hero Academia</h1>
+    <p id="welcome">Welcome to my fan page!</p>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#characters">Characters</a>
+        <a href="#quirks">Quirks</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="about">
+    <h2>About the Series</h2>
+
+    <img src="images/mha.jpg" alt="My Hero Academia">
+    <p>
+        My Hero Academia, also known as Boku No Hero Academia in Japan is an
+        extremely popular anime/manga about a young quirkless boy who aspired 
+        to be the world's greatest hero. The anime was adapted by Bones Studio 
+        and written by Kohei Horikoshi.
+    </p>
+
+    <button id="factBtn">Show Random Hero</button>
+
+    <p id="heroInfo"></p>
+</section>
+
+<section id="characters">
+    <h2>Main Characters</h2>
+
+    <ul id="characterList">
+        <li>Izuku Midoriya</li>
+        <li>Katsuki Bakugo</li>
+        <li>Shoto Todoroki</li>
+        <li>Ochaco Uraraka</li>
+    </ul>
+</section>
+
+<section id="quirks">
+    <h2>Favorite Quirk</h2>
+
+    <p id="quirkText">
+        Click inside the box below and then leave it to see an event.
+    </p>
+
+    <input type="text" id="favoriteQuirk" placeholder="Enter your favorite Quirk">
+</section>
+
+<section id="contact">
+
+    <h2>Favorite Character Form</h2>
+
+    <form id="heroForm">
+
+        <label>Name:</label><br>
+        <input type="text" id="userName" required><br><br>
+
+        <label>Favorite Hero:</label><br>
+        <input type="text" id="favoriteHero" required><br><br>
+
+        <button type="submit">Submit</button>
+
+    </form>
+
+    <h3>Your Submission</h3>
+
+    <p id="output"></p>
+
+</section>
+
+<section>
+
+<h2>Browser Information</h2>
+
+<p id="browser"></p>
+
+<p id="screenSize"></p>
+
+</section>
+
+<footer>
+
+<h2>Sources</h2>
+
+<p>
+MHA logo ©Kohei Horikoshi/SHUEISHA
+</p>
+
+</footer>
+
+<script src="final.js"></script>
+</body>
+</html>
